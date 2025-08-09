@@ -4,12 +4,12 @@ import { FaYoutube, FaInstagram } from 'react-icons/fa';
 import { SiTiktok } from 'react-icons/si';
 // import SearchBox from './SearchBox';
 
-interface Breadcrumb {
+export interface Breadcrumb {
   name: string;
   href: string;
 }
 
-interface PageHeaderProps {
+export interface PageHeaderProps {
   title: string;
   subtitle?: string;
   backgroundImageSrc: string;

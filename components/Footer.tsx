@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
-import { FaXTwitter } from 'react-icons/fa6';
+// import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
+// import { FaXTwitter } from 'react-icons/fa6';
 import PageSelector from "@/components/LegalPageSelector";
 
 const Footer: React.FC = () => {
