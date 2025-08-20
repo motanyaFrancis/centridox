@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Centridox",
-  description: "The Intelligeent Digital File",
+  title: "Teko Systems Limited",
+  description: "Transforming Africa Through Intelligent Technology",
 };
 
 export default function RootLayout({

@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-// import { FaInstagram, FaTiktok, FaYoutube } from 'react-icons/fa';
-// import { FaXTwitter } from 'react-icons/fa6';
+import { FaWhatsapp, FaFacebook, FaLinkedin, FaInstagram } from 'react-icons/fa6';
 import PageSelector from "@/components/LegalPageSelector";
 
 const Footer: React.FC = () => {
@@ -16,7 +15,7 @@ const Footer: React.FC = () => {
             <Link href="/" >
               <Image
                 alt="Logo"
-                src="/images/logos/logo.svg"
+                src="/images/logos/logo.png"
                 className=""
                 width={300}
                 height={120}
@@ -64,24 +63,24 @@ const Footer: React.FC = () => {
 
         {/* Footer Bottom Section */}
         <div className="relative mt-8">
-          <div className="relative flex flex-col md:flex-row  items-center border-t border-gray-700 pt-4">
+          <div className="relative flex flex-col md:flex-row justify-between  items-center border-t border-gray-700 pt-4">
             <p className="text-sm text-gray-900 text-center md:text-left mb-4 md:mb-0">
-              &copy; 2014 - {new Date().getFullYear()} centridox BV.
+              &copy; 2014 - {new Date().getFullYear()} Teko Systems Limited.
             </p>
-            {/* <div className="flex space-x-4 justify-center md:justify-end">
+            <div className="flex space-x-4 justify-center md:justify-end">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-gray-900 hover:text-secondary-500">
-                <FaTiktok className="h-6 w-6" />
-              </a>
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-gray-900 hover:text-secondary-500">
-                <FaYoutube className="h-6 w-6" />
-              </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-gray-900 hover:text-secondary-500">
-                <FaXTwitter className="h-6 w-6" />
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-900 hover:text-secondary-500">
                 <FaInstagram className="h-6 w-6" />
               </a>
-            </div> */}
+              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-gray-900 hover:text-secondary-500">
+                <FaWhatsapp className="h-6 w-6" />
+              </a>
+              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-gray-900 hover:text-secondary-500">
+                <FaLinkedin className="h-6 w-6" />
+              </a>
+              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-gray-900 hover:text-secondary-500">
+                <FaFacebook className="h-6 w-6" />
+              </a>
+            </div>
           </div>
         </div>
       </div>

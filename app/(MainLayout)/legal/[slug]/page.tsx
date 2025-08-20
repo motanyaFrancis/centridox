@@ -81,7 +81,7 @@ export default async function LegalPage({ params }: PageProps) {
                 backgroundImageSrc="/images/header.jpg"
                 breadcrumbs={breadcrumbs}
             />
-            <main className="pt-4">
+            <main className="pt-4 bg-gray-100 text-gray-900">
 
                 <section className="max-w-7xl mx-auto px-4 py-8 prose prose-neutral prose-h2:mt-8 prose-p:mt-4">
                     <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeSanitize]}>

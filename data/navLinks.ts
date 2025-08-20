@@ -12,10 +12,9 @@ export interface NavLink {
 
 const navLinks: NavLink[] = [
   { name: 'Home', href: '/' },
-  { name: 'Scan', href: '/scan' },
+  { name: 'About', href: '/about' },
   { name: 'Contact', href: '/contact' },
-  { name: 'Rates', href: '/rates' },
-  { name: 'Remote Help', href: '/remote-help' },
+  
 
 ];
 

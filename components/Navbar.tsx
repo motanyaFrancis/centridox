@@ -95,13 +95,13 @@ export default function Navbar() {
                     </div>
 
                     <Link
-                        href="/bookings"
+                        href="/contact"
                         className={`hidden lg:flex items-center gap-2 px-6 py-3 rounded-full transition duration-200 ${isScrolled
                             ? 'bg-sky-600 text-white hover:bg-sky-50 hover:text-sky-900'
                             : 'bg-white text-sky-900 hover:bg-sky-50'
                             }`}
                     >
-                        <span className="text-sm font-semibold">Start Today</span>
+                        <span className="text-sm font-semibold">Contact Us</span>
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16">
                             <path
                                 d="M5.5 3L10.5 8L5.5 13"
@@ -237,10 +237,10 @@ export default function Navbar() {
                     </ul>
                     <div className="text-left">
                         <Link
-                            href="/bookings"
+                            href="/contact"
                             className="inline-flex items-center gap-2 text-black hover:text-opacity-80 transition duration-200"
                         >
-                            <span className="text-sm font-medium">Start Today</span>
+                            <span className="text-sm font-medium">Contact Us</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
                                 <path
                                     d="M5.5 3L10.5 8L5.5 13"

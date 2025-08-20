@@ -98,11 +98,11 @@ export default function HeroSection() {
             <h1 className="text-2xl sm:text-4xl font-black leading-tight">
               
               <span className="block text-2xl sm:text-4xl max-xs:text-3xl text-white/90 font-normal">
-                <span className='capitalize text-secondary-300 font-black '>Centridox: </span> Your All-in-One Digital Workspace
+                <span className='capitalize text-secondary-300 font-black '>Teko: </span> Your All-in-One Digital Workspace
               </span>
             </h1>
             <p className="mt-4 text-white text-lg font-light">
-              Manage emails, documents, tasks, and workflows – all from one intelligent cloud system.
+              Nairobi-based ICT company delivering smart, scalable, and culturally grounded digital solutions across the African continent.
             </p>
 
             {/* Dynamic Buttons */}
@@ -110,14 +110,14 @@ export default function HeroSection() {
               <Link href="#" className="group relative inline-block font-semibold rounded-full overflow-hidden">
                 <div
                   className="relative z-50 flex items-center py-4 px-6 rounded-full transition duration-200"
-                  style={{ backgroundColor: '#1e3a8a', color: '#ffffff' }}
+                  style={{ backgroundColor: '#c20001', color: '#ffffff' }}
                 >
-                  <p className="mr-2">Try Centridox</p>
+                  <p className="mr-2">Try Teko</p>
                 </div>
               </Link>
               <Link href="#" className="max-sm:hidden group transition duration-900 relative inline-block font-semibold rounded-full overflow-hidden border-2 border-secondary-200 text-secondary-200 hover:bg-secondary-200 hover:text-primary-500">
                 <div className="relative z-50 flex items-center py-3 px-5  transition duration-200">
-                  <p className="mr-2 uppercase">Watch a Demo</p>
+                  <p className="mr-2 uppercase">Book a Demo</p>
                 </div>
               </Link>
               
